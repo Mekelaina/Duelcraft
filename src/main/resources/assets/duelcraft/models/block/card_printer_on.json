@@ -1,0 +1,6 @@
+{
+	"parent": "duelcraft:block/card_printer_base",
+	"textures": {
+		"1": "blocks/redstone_lamp_on"
+	}
+}

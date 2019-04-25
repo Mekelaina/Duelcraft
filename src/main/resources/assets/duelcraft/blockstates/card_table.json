@@ -1,0 +1,44 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		
+		"__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+		"textures": {
+		 "0": "blocks/quartz_block_side",
+        "1": "blocks/quartz_block_lines_top",
+        "2": "duelcraft:items/cardbacksmall",
+        "3": "duelcraft:items/cardbacksmall",
+        "5": "duelcraft:items/cardbacksmall",
+        "6": "duelcraft:items/carsfrontsmall",
+        "7": "blocks/glass",
+        "8": "blocks/glass_pane_top",
+        "9": "blocks/quartz_block_lines",
+        "10": "duelcraft:items/cardside"
+			
+		},
+		"model": "duelcraft:card_case"
+	},
+	"variants": {
+		"inventory": [{
+			"model": "duelcraft:card_case"
+		}],
+		"facing=north": {
+			"model": "duelcraft:card_case"
+			
+		},
+		"facing=south": {
+			"model": "duelcraft:card_case",
+            "y": 180
+			
+		},
+		"facing=east": {
+			"model": "duelcraft:card_case",
+	        "y": 90
+	        
+		},
+		"facing=west": {
+			"model": "duelcraft:card_case",
+            "y": 270
+		}
+	}
+}

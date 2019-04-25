@@ -1,0 +1,6 @@
+{
+	"parent": "duelcraft:card_table",
+	 "model": {
+	   "1": "card_table_clear_glass"
+	 }
+}

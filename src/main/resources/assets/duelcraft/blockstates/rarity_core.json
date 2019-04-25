@@ -1,0 +1,41 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		
+		"__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+		"textures": {
+		"0": "blocks/glowstone",
+        "1": "blocks/quartz_block_chiseled",
+        "3": "blocks/beacon"
+			
+		},
+		"model": "duelcraft:rarity_core"
+	},
+	"variants": {
+		"inventory": [{
+			"model": "duelcraft:rarity_core"
+		}],
+		
+		"normal": {"model": "duelcraft:rarity_core"},
+		
+		"facing=north": {
+			"model": "duelcraft:rarity_core",
+			"y": 90
+			
+		},
+		"facing=south": {
+			"model": "duelcraft:rarity_core",
+            "y": 90
+			
+		},
+		"facing=east": {
+			"model": "duelcraft:rarity_core"
+	       
+	        
+		},
+		"facing=west": {
+			"model": "duelcraft:rarity_core"
+           
+		}
+	}
+}

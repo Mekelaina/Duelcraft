@@ -1,0 +1,8 @@
+{
+	
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "duelcraft:blocks/kaiba_crystal_ore"
+	}
+	
+}

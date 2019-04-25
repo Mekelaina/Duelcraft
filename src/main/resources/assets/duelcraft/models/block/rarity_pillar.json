@@ -1,0 +1,313 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "blocks/stonebrick_carved",
+		"1": "blocks/stonebrick",
+		"3": "duelcraft:blocks/chiseled_stone_bricks_duelingdust",
+		"4": "blocks/quartz_block_chiseled",
+		"5": "blocks/quartz_block_chiseled_top",
+		"6": "blocks/quartz_block_lines",
+		"7": "blocks/quartz_block_lines_top",
+		"particle": "blocks/stonebrick"
+	},
+	"elements": [
+		{
+			"name": "Base",
+			"from": [1.75, 0, 1.75],
+			"to": [14.25, 5, 14.25],
+			"faces": {
+				"north": {"uv": [0.25, 0, 15.75, 9], "texture": "#1"},
+				"east": {"uv": [0.25, 0, 15.75, 9], "texture": "#1"},
+				"south": {"uv": [0.25, 0, 15.75, 9], "texture": "#1"},
+				"west": {"uv": [0.25, 0, 15.75, 9], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "WBaseLip",
+			"from": [1, 0, 1.75],
+			"to": [1.75, 0.75, 14.25],
+			"faces": {
+				"north": {"uv": [7, 7, 8, 8], "texture": "#1"},
+				"east": {"uv": [0.75, 7.25, 13.25, 8], "texture": "#1"},
+				"south": {"uv": [7, 7, 8, 8], "texture": "#1"},
+				"west": {"uv": [0.75, 7.25, 13.25, 8], "texture": "#1"},
+				"up": {"uv": [0.75, 7.25, 13.25, 8], "texture": "#1"},
+				"down": {"uv": [0.75, 7.25, 13.25, 8], "texture": "#1"}
+			}
+		},
+		{
+			"name": "EBaseLip",
+			"from": [14.25, 0, 1.75],
+			"to": [15, 0.75, 14.25],
+			"faces": {
+				"north": {"uv": [7, 7.25, 7.75, 8], "texture": "#1"},
+				"east": {"uv": [3, 7, 15.5, 7.75], "texture": "#1"},
+				"south": {"uv": [7, 7, 7.75, 7.75], "texture": "#1"},
+				"up": {"uv": [1.5, 7.25, 14, 8], "texture": "#1"},
+				"down": {"uv": [1.75, 7.25, 14.25, 8], "texture": "#1"}
+			}
+		},
+		{
+			"name": "SBaseLip",
+			"from": [1.75, 0, 14.25],
+			"to": [14.25, 0.75, 15],
+			"faces": {
+				"north": {"uv": [2.25, 7, 14.75, 8], "texture": "#1"},
+				"east": {"uv": [7, 7, 8, 8], "texture": "#1"},
+				"south": {"uv": [2.25, 7, 14.75, 8], "texture": "#1"},
+				"west": {"uv": [7, 7, 8, 8], "texture": "#1"},
+				"up": {"uv": [2.25, 7, 14.75, 8], "texture": "#1"},
+				"down": {"uv": [2.25, 7, 14.75, 8], "texture": "#1"}
+			}
+		},
+		{
+			"name": "NBaseLip",
+			"from": [1.75, 0, 1],
+			"to": [14.25, 0.75, 1.75],
+			"faces": {
+				"north": {"uv": [2.25, 7.25, 14.75, 8], "texture": "#1"},
+				"east": {"uv": [7, 7, 8, 8], "texture": "#1"},
+				"west": {"uv": [7, 7, 8, 8], "texture": "#1"},
+				"up": {"uv": [2.5, 7, 15, 7.75], "texture": "#1"},
+				"down": {"uv": [1.25, 7.25, 13.75, 8], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Mid",
+			"from": [3.65, 5, 3.775],
+			"to": [12.15, 10, 12.275],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "SpikeShaftBase",
+			"from": [4.525, 13.75, 10.225],
+			"to": [5.325, 14.475, 11.025],
+			"rotation": {"angle": 45, "axis": "y", "origin": [5.175, 14, 11.525]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#6"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#6"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#6"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#6"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#7"}
+			}
+		},
+		{
+			"name": "SpikeLeg",
+			"from": [4.45, 12.75, 10.125],
+			"to": [6.95, 13.75, 11.125],
+			"rotation": {"angle": 45, "axis": "y", "origin": [5.175, 14, 11.525]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 8], "texture": "#1"}
+			}
+		},
+		{
+			"name": "SpikeShaftTop",
+			"from": [4.625, 14.25, 10.325],
+			"to": [5.225, 15.1, 10.925],
+			"rotation": {"angle": 45, "axis": "y", "origin": [5.175, 14, 11.525]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#5"}
+			}
+		},
+		{
+			"name": "SpikeLeg",
+			"from": [-0.85, 12.75, 6.575],
+			"to": [1.65, 13.75, 7.575],
+			"rotation": {"angle": -45, "axis": "y", "origin": [5.175, 14, 11.525]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 8], "texture": "#1"}
+			}
+		},
+		{
+			"name": "SpikeShaftTop",
+			"from": [-0.675, 14.25, 6.775],
+			"to": [-0.075, 15.1, 7.375],
+			"rotation": {"angle": -45, "axis": "y", "origin": [5.175, 14, 11.525]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#5"}
+			}
+		},
+		{
+			"name": "SpikeShaftBase",
+			"from": [-0.775, 13.75, 6.675],
+			"to": [0.025, 14.475, 7.475],
+			"rotation": {"angle": -45, "axis": "y", "origin": [5.175, 14, 11.525]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#6"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#6"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#6"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#6"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#7"}
+			}
+		},
+		{
+			"name": "SpikeShaftBase",
+			"from": [9.2, 13.75, 14.925],
+			"to": [10, 14.475, 15.725],
+			"rotation": {"angle": 45, "axis": "y", "origin": [5.175, 14, 11.525]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#6"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#6"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#6"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#6"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#7"}
+			}
+		},
+		{
+			"name": "SpikeLeg",
+			"from": [9.1, 12.75, 13.325],
+			"to": [10.1, 13.75, 15.825],
+			"rotation": {"angle": 45, "axis": "y", "origin": [5.175, 14, 11.525]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 8], "texture": "#1"}
+			}
+		},
+		{
+			"name": "SpikeShaftTop",
+			"from": [9.3, 14.25, 15.025],
+			"to": [9.9, 15.1, 15.625],
+			"rotation": {"angle": 45, "axis": "y", "origin": [5.175, 14, 11.525]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#5"}
+			}
+		},
+		{
+			"name": "SpikeLeg",
+			"from": [3.8, 12.75, 1.95],
+			"to": [4.8, 13.75, 4.45],
+			"rotation": {"angle": -45, "axis": "y", "origin": [5.175, 14, 11.525]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 8], "texture": "#1"}
+			}
+		},
+		{
+			"name": "SpikeShaftTop",
+			"from": [4, 14.25, 2.15],
+			"to": [4.6, 15.1, 2.75],
+			"rotation": {"angle": -45, "axis": "y", "origin": [5.175, 14, 11.525]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#5"}
+			}
+		},
+		{
+			"name": "SpikeShaftBase",
+			"from": [3.9, 13.75, 2.05],
+			"to": [4.7, 14.475, 2.85],
+			"rotation": {"angle": -45, "axis": "y", "origin": [5.175, 14, 11.525]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#6"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#6"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#6"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#6"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#7"}
+			}
+		},
+		{
+			"name": "Top",
+			"from": [5.375, 10, 5.525],
+			"to": [9.875, 14, 10.025],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#3"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [45, 0, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [45, 0, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.45, 0.45, 0.45]
+		},
+		"gui": {
+			"rotation": [19, 45, -3],
+			"translation": [0.25, 1, 0],
+			"scale": [0.8, 0.8, 0.8]
+		}
+	},
+	"groups": [
+		{
+			"name": "Pedistal",
+			"children": [
+				{
+					"name": "PedistalBase",
+					"children": [0, 1, 2, 3, 4]
+				},
+				{
+					"name": "PedistalTop",
+					"children": [5,
+						{
+							"name": "Top",
+							"children": [
+								{
+									"name": "SpikeSW",
+									"children": [6, 7, 8]
+								},
+								{
+									"name": "SpikeNW",
+									"children": [9, 10, 11]
+								},
+								{
+									"name": "SpikeSE",
+									"children": [12, 13, 14]
+								},
+								{
+									"name": "SpikeNE",
+									"children": [15, 16, 17]
+								}, 18]
+						}
+					]
+				}
+			]
+		}
+	]
+}

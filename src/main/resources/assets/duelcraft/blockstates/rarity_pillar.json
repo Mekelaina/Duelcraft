@@ -1,0 +1,26 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		
+		"__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+		"textures": {
+		"0": "blocks/stonebrick_carved",
+        "1": "blocks/stonebrick",
+        "3": "duelcraft:blocks/chiseled_stone_bricks_duelingdust",
+        "4": "blocks/quartz_block_chiseled",
+        "5": "blocks/quartz_block_chiseled_top",
+        "6": "blocks/quartz_block_lines",
+        "7": "blocks/quartz_block_lines_top"
+			
+		},
+		"model": "duelcraft:rarity_pillar"
+	},
+	"variants": {
+		"inventory": [{
+			"model": "duelcraft:rarity_pillar"
+		}],
+		"normal": [{
+		     "model": "duelcraft:rarity_pillar"
+		}]
+		}
+}

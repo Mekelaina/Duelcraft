@@ -1,0 +1,8 @@
+{
+
+    "parent": "duelcraft:item/deckbox",
+    "textures": {
+        "layer0": "duelcraft:items/white_deckbox"
+    }
+    
+}

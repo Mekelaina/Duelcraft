@@ -1,0 +1,49 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        
+        "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+        "textures": {
+        "12": "blocks/concrete_yellow",
+        "13": "blocks/concrete_black",
+        "white_shulker_box": "blocks/shulker_top_white",
+        "stone_slab_top": "blocks/stone_slab_top",
+        "cyan_concrete": "blocks/concrete_cyan",
+        "cauldron_side": "blocks/cauldron_side",
+        "printer2": "duelcraft:blocks/printer2",
+        "cardsheet": "duelcraft:blocks/cardsheet",
+        "new texture": "duelcraft:blocks/printer1",
+        "magenta_concrete": "blocks/concrete_magenta",
+        "redstone_lamp_on": "blocks/redstone_lamp_off",
+        "particle": "duelcraft:blocks/printer2"
+            
+        },
+        "model": "duelcraft:card_printer"
+    },
+    "variants": {
+        "inventory": [{
+            "model": "duelcraft:card_printer"
+        }],
+        
+        "normal": {"model": "duelcraft:card_printer"},
+        
+        "facing=north": {
+            "model": "duelcraft:card_printer"
+            
+        },
+        "facing=south": {
+            "model": "duelcraft:card_printer",
+            "y": 180
+            
+        },
+        "facing=east": {
+            "model": "duelcraft:card_printer",
+            "y": 90
+            
+        },
+        "facing=west": {
+            "model": "duelcraft:card_printer",
+            "y": 270
+        }
+    }
+}

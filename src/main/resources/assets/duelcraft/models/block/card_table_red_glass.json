@@ -1,0 +1,6 @@
+{
+	"parent": "duelcraft:block/card_table",
+	"textures": {
+		"1": "blocks/glass_red"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "duelcraft:blocks/quartz2"
+	},
+	"elements": [
+		{
+			"name": "cube1",
+			"from": [7.5, 4, 7.5],
+			"to": [8.5, 5, 8.5],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"name": "cube2",
+			"from": [7.5, 1, 8.5],
+			"to": [8.5, 4, 9.5],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"name": "cube3",
+			"from": [8.5, 1, 7.5],
+			"to": [9.5, 4, 8.5],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"name": "cube4",
+			"from": [6.5, 1, 7.5],
+			"to": [7.5, 4, 8.5],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"name": "cube5",
+			"from": [7.5, 1, 6.5],
+			"to": [8.5, 4, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"name": "cube6",
+			"from": [7.5, 0, 7.5],
+			"to": [8.5, 1, 8.5],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [47, 0, 0],
+			"translation": [0, 5.25, 4.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [47, 0, 0],
+			"translation": [0, 5.25, 4.5]
+		},
+		"firstperson_righthand": {
+			"translation": [1.75, 13.75, 0],
+			"scale": [1.8, 1.8, 1.8]
+		},
+		"firstperson_lefthand": {
+			"translation": [1.75, 13.75, 0],
+			"scale": [1.8, 1.8, 1.8]
+		},
+		"ground": {
+			"translation": [0, 4, 0]
+		},
+		"gui": {
+			"rotation": [0, 36, 20],
+			"translation": [-3.25, 11.5, 0],
+			"scale": [2.25, 2.25, 2.25]
+		},
+		"fixed": {
+			"translation": [0, 14, 0],
+			"scale": [2.55, 2.55, 1.98]
+		}
+	},
+	"groups": [
+		{
+			"name": "crystal",
+			"children": [0, 1, 2, 3, 4, 5]
+		}
+	]
+}

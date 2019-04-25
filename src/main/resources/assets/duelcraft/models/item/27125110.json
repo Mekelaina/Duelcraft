@@ -1,0 +1,6 @@
+{
+	"parent": "duelcraft:item/card",
+	"textures": {
+		"1": "duelcraft:items/27125110"
+	}
+}
